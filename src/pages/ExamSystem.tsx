@@ -31,6 +31,17 @@ export default function ExamSystem() {
     )
   }
 
+  const scheduleLabels: Record<string, string> = {
+    application_period: '出願期間',
+    document_submission: '書類提出',
+    change_period: '変更期間',
+    academic_test: '学力検査',
+    interview: '面接',
+    special_test: '特色検査',
+    makeup_test: '追検査',
+    results: '合格発表',
+  }
+
   const faqs = [
     {
       q: '学力検査の科目と配点は？',
@@ -85,7 +96,7 @@ export default function ExamSystem() {
                 return (
                   <div key={key} className="flex flex-col sm:flex-row sm:items-start gap-2">
                     <span className="font-sans text-sm font-medium text-slate-label w-24 flex-shrink-0">
-                      {key}:
+                      {scheduleLabels[key] || key}:
                     </span>
                     <div>
                       <span className="font-sans text-navy">{date}</span>
