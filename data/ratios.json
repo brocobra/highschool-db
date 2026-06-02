@@ -1,0 +1,57 @@
+[
+  {
+    "year": 2026,
+    "description": "令和8年度入試 (最新確定倍率)",
+    "data": [
+      {"school_id": "saitama-pub-ichiritsu-urawa", "course": "普通科", "ratio": 1.92},
+      {"school_id": "saitama-pub-omiya", "course": "理数科", "ratio": 2.03},
+      {"school_id": "saitama-pub-omiya", "course": "普通科", "ratio": 1.59},
+      {"school_id": "saitama-pub-kawaguchi-ichiritsu", "course": "普通科", "ratio": 1.59},
+      {"school_id": "saitama-pub-urawa-nishi", "course": "普通科", "ratio": 1.45},
+      {"school_id": "saitama-pub-urawa", "course": "普通科", "ratio": 1.21},
+      {"school_id": "saitama-pub-urawa-ichijo", "course": "普通科", "ratio": 1.25},
+      {"school_id": "saitama-pub-kawagoe", "course": "普通科", "ratio": 1.41},
+      {"school_id": "saitama-pub-kawagoe-joshi", "course": "普通科", "ratio": 1.26},
+      {"school_id": "saitama-pub-kasukabe", "course": "普通科", "ratio": 1.31},
+      {"school_id": "saitama-pub-koshigaya-kita", "course": "普通科", "ratio": 1.23},
+      {"school_id": "saitama-pub-warabi", "course": "普通科", "ratio": 1.17},
+      {"school_id": "saitama-pub-fudooka", "course": "普通科", "ratio": 1.34},
+      {"school_id": "saitama-pub-koshigaya-minami", "course": "普通科", "ratio": 1.34},
+      {"school_id": "saitama-pub-kumagaya", "course": "普通科", "ratio": 1.17},
+      {"school_id": "saitama-pub-kumagaya-joshi", "course": "普通科", "ratio": 1.12},
+      {"school_id": "saitama-pub-ina-gakuen", "course": "普通科", "ratio": 1.15}
+    ]
+  },
+  {
+    "year": 2025,
+    "description": "令和7年度入試",
+    "data": [
+      {"school_id": "saitama-pub-ichiritsu-urawa", "course": "普通科", "ratio": 1.88},
+      {"school_id": "saitama-pub-omiya", "course": "普通科", "ratio": 1.51},
+      {"school_id": "saitama-pub-urawa", "course": "普通科", "ratio": 1.47},
+      {"school_id": "saitama-pub-kawagoe", "course": "普通科", "ratio": 1.41},
+      {"school_id": "saitama-pub-kawaguchi-ichiritsu", "course": "普通科", "ratio": 1.68},
+      {"school_id": "saitama-pub-urawa-nishi", "course": "普通科", "ratio": 1.45},
+      {"school_id": "saitama-pub-urawa-ichijo", "course": "普通科", "ratio": 1.33},
+      {"school_id": "saitama-pub-kasukabe", "course": "普通科", "ratio": 1.41},
+      {"school_id": "saitama-pub-warabi", "course": "普通科", "ratio": 1.36},
+      {"school_id": "saitama-pub-fudooka", "course": "普通科", "ratio": 1.33},
+      {"school_id": "saitama-pub-kumagaya", "course": "普通科", "ratio": 1.05}
+    ]
+  },
+  {
+    "year": 2024,
+    "description": "令和6年度入試",
+    "data": [
+      {"school_id": "saitama-pub-ichiritsu-urawa", "course": "普通科", "ratio": 1.75},
+      {"school_id": "saitama-pub-omiya", "course": "普通科", "ratio": 1.53},
+      {"school_id": "saitama-pub-urawa", "course": "普通科", "ratio": 1.42},
+      {"school_id": "saitama-pub-kasukabe", "course": "普通科", "ratio": 1.50},
+      {"school_id": "saitama-pub-warabi", "course": "普通科", "ratio": 1.50},
+      {"school_id": "saitama-pub-ichiritsu-kawagoe", "course": "普通科", "ratio": 1.49},
+      {"school_id": "saitama-pub-urawa-ichijo", "course": "普通科", "ratio": 1.20},
+      {"school_id": "saitama-pub-kawagoe", "course": "普通科", "ratio": 1.34},
+      {"school_id": "saitama-pub-fudooka", "course": "普通科", "ratio": 1.34}
+    ]
+  }
+]

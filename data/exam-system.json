@@ -1,0 +1,85 @@
+{
+  "prefecture": "saitama",
+  "year": 2027,
+  "title": "令和9年度埼玉県公立高等学校入学者選抜",
+  "source": "埼玉県教育委員会「令和9年度実施基本方針」（令和6年9月26日公表）",
+  "source_url": "https://www.pref.saitama.lg.jp/documents/257619/r9jisshikihonhoushin.pdf",
+  "updated": "2026-05-31",
+  "system_overview": {
+    "district": "全県1区制（平成16年度から通学区域廃止、県内どこでも出願可能）",
+    "selection_types": ["共通選抜", "特色選抜"],
+    "academic_test": {
+      "subjects": ["国語", "社会", "数学", "理科", "外国語（英語）"],
+      "score_per_subject": 100,
+      "total_score": 500,
+      "note": "外国語にはリスニング含む。数学・英語は学校選択問題に変更可能。R9からマークシート導入"
+    }
+  },
+  "schedule": {
+    "application_period": "2027-01-26/2027-02-09",
+    "document_submission": ["2027-02-12", "2027-02-15", "2027-02-16"],
+    "change_period": ["2027-02-17", "2027-02-18"],
+    "academic_test": "2027-02-25",
+    "interview": "2027-02-26",
+    "special_test": "2027-03-01",
+    "makeup_test": "2027-03-02",
+    "results": "2027-03-05"
+  },
+  "report_card": {
+    "description": "9教科×5段階評定の合計（最大45点）",
+    "year_ratios": [
+      {"ratio": "1:1:1", "max_score": 135},
+      {"ratio": "1:1:2", "max_score": 180},
+      {"ratio": "1:1:3", "max_score": 225}
+    ],
+    "conversions": [200, 300, 400],
+    "note": "学年比率と換算点は各学校が選択。3年次を重視する学校が多い"
+  },
+  "interview": {
+    "all_students": true,
+    "types": ["個人面接", "集団面接"],
+    "base_score": 30,
+    "multipliers": [
+      {"multiplier": 1, "max_score": 30},
+      {"multiplier": 2, "max_score": 60}
+    ],
+    "self_evaluation": true,
+    "note": "R9から全受検生が面接を実施。自己評価資料を参考に実施"
+  },
+  "special_test": {
+    "types": ["実技検査", "作文（小論文）"],
+    "note": "特色選抜を実施する学校のみ。学科・コースの特色に応じて実施"
+  },
+  "selection_procedure": {
+    "both_selections": {
+      "description": "共通+特色選抜を実施する学校",
+      "special_ratio": "20-80%（10%刻み）",
+      "common_ratio": "残り100%",
+      "order": "特色選抜を先に決定、その後共通選抜"
+    },
+    "single_selection": {
+      "description": "単一選抜のみの学校",
+      "first_round": "60-80%（10%刻み）",
+      "second_round": "残り100%",
+      "note": "第1次と第2次で得点の取扱いに差を設ける"
+    }
+  },
+  "score_constraints": {
+    "common": "学力検査500点 + 調査書 + 面接",
+    "report_interview_max": "学力検査基本点（500点）× 1.5 = 750点上限",
+    "special_test_max": "学力検査 + 調査書 + 面接の合計以下"
+  },
+  "special_selections": {
+    "absent_students": "調査書不使用、学力検査+面接+自己申告書",
+    "returnee": "帰国生徒特別選抜",
+    "foreign": "外国人特別選抜",
+    "part_time": "定時制特別募集"
+  },
+  "contact": {
+    "department": "教育局 高校教育指導課 入学者選抜・教員研修担当",
+    "phone": "048-830-6766",
+    "consultation_phone": "048-556-2439",
+    "consultation_hours": "平日9:00-17:00",
+    "email": "p7412216@pref.saitama.lg.jp"
+  }
+}
