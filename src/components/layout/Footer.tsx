@@ -8,7 +8,7 @@ export default function Footer() {
           <p className="font-sans text-sm">
             © 2026 埼玉県高校受験DB
           </p>
-          <nav className="flex space-x-6">
+          <nav className="flex flex-wrap justify-center gap-x-6 gap-y-2">
             <Link to="/" className="font-sans text-sm hover:text-purple-light transition-colors">
               トップ
             </Link>
@@ -20,6 +20,19 @@ export default function Footer() {
             </Link>
             <Link to="/saitama/exam-system" className="font-sans text-sm hover:text-purple-light transition-colors">
               入試制度
+            </Link>
+            <Link to="/saitama/budget" className="font-sans text-sm hover:text-purple-light transition-colors">
+              学費目安
+            </Link>
+            <span className="text-white/20">|</span>
+            <Link to="/about" className="font-sans text-sm hover:text-purple-light transition-colors">
+              運営者情報
+            </Link>
+            <Link to="/privacy" className="font-sans text-sm hover:text-purple-light transition-colors">
+              プライバシーポリシー
+            </Link>
+            <Link to="/disclaimer" className="font-sans text-sm hover:text-purple-light transition-colors">
+              免責事項
             </Link>
           </nav>
         </div>
